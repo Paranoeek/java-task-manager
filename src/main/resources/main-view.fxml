@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.taskmanager.TaskManagerController" spacing="10" alignment="CENTER" prefWidth="300">
+    <ListView fx:id="taskList" prefHeight="200"/>
+    <TextField fx:id="input" promptText="Enter task"/>
+    <Button text="Add Task" onAction="#addTask"/>
+</VBox>
